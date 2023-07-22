@@ -1,0 +1,175 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.main{
+  width: 100%;
+  height: 100vh;
+  /* background-color: aquamarine; */
+  display: flex;
+  background-color: #eaebed;
+
+}
+.main .left{
+  width: 60%;
+  height: 100%;
+  /* background-color: blueviolet; */
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-flow: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+.main .left .child{
+  /* margin: 0 10px; */
+  width: 25%;
+  height: 20%;
+  /* background-color: violet; */
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+}
+.main .left .child .card{
+  background-color: aqua;
+  width: 90%;
+  height: 100%;
+  position: relative;
+  cursor: pointer;
+}
+.main .left .child .card img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.main .left .child .card .name{
+  position: absolute;
+  width: 100%;
+  height: 30px;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  bottom: 0;
+}
+.main .right{
+  width: 40%;
+  height: 100%;
+  background-color: #EAEBED;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.main .right .head{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 65px;
+  background-color: #E2E6F3;
+}
+.main .right .head .head-left , .main .right .head .head-right{
+  width: 65px;
+  height: 100%;
+  background-color: #BDC7E2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main .right .head .head-mid{
+  height: 100%;
+  width: 310px;
+  /* background-color: #E2E6F3; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main .right .dinein{
+  width: 100%;
+  height: 50px;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5px;
+}
+.main .right .pricelist{
+  width: 100%;
+  height: 320px;
+  background-color: #fff;
+  padding: 10px 20px;
+  margin-bottom: 5px;
+}
+.main .right .pricelist .table{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.main .right .pricelist .value{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+.main .right .pricelist .value .tag{
+  display: flex;
+}
+.main .right .pricelist .value .tag .price{
+  width: 150px;
+  text-align: right;
+}
+.main .right .clear{
+  width: 100%;
+  height: 50px;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5px;
+}
+.main .right .gap{
+  width: 100%;
+  height: 40px;
+  background-color: #fff;
+}
+.main .right .btn{
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.main .right .btn .savebill , .main .right .btn .printbill{
+  width: 49.8%;
+  height: 100%;
+  background-color: #E3E7F3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main .right .bottom{
+  width: 100%;
+  height: 55px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.main .right .bottom .splitbill{
+  width: 55px;
+  height: 100%;
+  background-color: #4A5CA7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main .right .bottom .charge{
+  width: calc( 100% - 60px);
+  height: 100%;
+  background-color: #4A5CA7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
